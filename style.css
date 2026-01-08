@@ -1,0 +1,431 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background: radial-gradient(circle at top left, #3b1d0f, #0f0502);
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5;
+}
+
+nav ul li a:hover {
+    color: #FFA228;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 80px;
+}
+
+.logo {
+    color: orange;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login {
+    background: orange;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.cart {
+    background: orange;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+}
+
+.hero-text span {
+    color: orange;
+}
+
+.hero-text p {
+    color: #ccc;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.small-title {
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+.video-box {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(135deg, orange, red);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn1 {
+    background: transparent;
+    border: 2px solid orange;
+    color: orange;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn2 {
+    background: transparent;
+    border: 2px solid orange;
+    color: orange;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.hero-image {
+    width: 45%;
+    background: #ff3d00;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.hero-image img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.menu {
+    padding: 60px 5%;
+    text-align: center;
+}
+
+.menu h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.categories button {
+    padding: 10px 22px;
+    border-radius: 25px;
+    border: 1px solid #ff8a1f;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.categories .active,
+.categories button:hover {
+    background: linear-gradient(45deg, #ff9b2f, #ff6a00);
+    border: none;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.sizes span:hover {
+    background-color: #ff8a1f;
+    color: white;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 140px;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.a {
+    width: 1248px;
+    height: 286px;
+    border-radius: 34px;
+}
+
+.card p {
+    font-size: 13px;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+.sizes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.sizes span {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sizes .active {
+    background: orange;
+    color: #000;
+}
+
+.ingredients {
+    background: transparent;
+    border: 1px solid orange;
+    color: orange;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.count button {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    background: orange;
+    cursor: pointer;
+}
+
+.order {
+    width: 100%;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background: linear-gradient(45deg, #ff9b2f, #ff6a00);
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {
+
+    nav a {
+        margin: 8px;
+        font-size: 14px;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .video-box {
+        width: 90px;
+        height: 90px;
+        font-size: 30px;
+    }
+
+    .order,
+    .menu {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 30px 20px;
+        text-align: center;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .video-box {
+        margin: 20px auto;
+    }
+
+    .buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-image {
+        width: 100%;
+        margin-top: 30px;
+    }
+}
